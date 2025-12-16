@@ -10,7 +10,7 @@ public class death : MonoBehaviour
     private specialMoves specialMoves;
     private Camera cam;
     private GameObject pj;
-
+    public Checkpoint checkpoint;
 
     [Header("Variables")]
     private Camera cameraposition;
@@ -21,7 +21,7 @@ public class death : MonoBehaviour
     private float distance;
     private Vector2 direccion;
 
-    public  bool spawn = false;
+    public bool spawn = false;
 
     public float lookTimelimit = 20f;
     [SerializeField] public float lookTime;
@@ -39,30 +39,38 @@ public class death : MonoBehaviour
     [SerializeField] private float jitterAmount = 0.15f;
 
     [SerializeField] private int state = 0; // 0=scan,1=search,2=chase
-    
-    private float stateTimer = 0f;
 
+    private float stateTimer = 0f;
+    private Vector2 posInicial;
     Vector3[] corners;
     int currentCorner = 0;
-
+    public bool resetPlayer = false;
     void Start()
     {
         cam = Camera.main;
         pj = GameObject.FindWithTag("Player");
-        state = 0;
+        state = 5;
         stateTimer = Time.time + scanDuration;
 
+        posInicial = transform.position;
     }
     void Update()
     {
 
+        if (distance < 0.5f)
+        {
+            
+           Checkpoint.SendPlayersToLastCheckpoint();
+
+            ResetState();
+            
+        }
+
+
 
         if (cam == null) return;
 
-        //Vector3 bottomLeft = cam.ViewportToWorldPoint(new Vector3(0, 0, cam.nearClipPlane));
-        //Vector3 bottomRight = cam.ViewportToWorldPoint(new Vector3(1, 0, cam.nearClipPlane));
-        //Vector3 topLeft = cam.ViewportToWorldPoint(new Vector3(0, 1, cam.nearClipPlane));
-        //Vector3 topRight = cam.ViewportToWorldPoint(new Vector3(1, 1, cam.nearClipPlane));
+
         corners = new Vector3[4];
         corners[0] = cam.ViewportToWorldPoint(new Vector3(0, 0, cam.nearClipPlane + 10f)); // bottomLeft
         corners[1] = cam.ViewportToWorldPoint(new Vector3(1, 0, cam.nearClipPlane + 10f)); // bottomRight
@@ -71,11 +79,21 @@ public class death : MonoBehaviour
 
         distance = Vector2.Distance(transform.position, pj.transform.position);
         direccion = (pj.transform.position - transform.position).normalized;
-        if (spawn == true)
+
+
+
+        if (spawn)
         {
+            if (state == 5)
+            {
+                state = 0;
+                stateTimer = Time.time + scanDuration;
+            }
+
             if (state == 0) // SCAN
             {
                 ScanBehaviour();
+             
                 if (Time.time > stateTimer)
                 {
                     state = 1;
@@ -90,18 +108,17 @@ public class death : MonoBehaviour
                     state = 2;
                 }
             }
-            else // state == 2 CHASE
+            else if (state == 2) // CHASE
             {
                 ChaseBehaviour();
-
                 if (distance > loseRange)
                 {
-                    // volvemos a buscar después de X segundos
                     state = 1;
                     stateTimer = Time.time + searchDuration;
                 }
             }
         }
+
         Debug.DrawLine(bottomLeft, bottomRight, Color.red);
         Debug.DrawLine(bottomRight, topRight, Color.green);
         Debug.DrawLine(topRight, topLeft, Color.blue);
@@ -137,7 +154,7 @@ public class death : MonoBehaviour
     {
         Vector3 playerPos = pj.transform.position;
         playerPos.z = transform.position.z;
-        
+
         transform.position = Vector3.MoveTowards(transform.position, playerPos, Time.deltaTime * chaseSpeed);
     }
     Vector3 RandomJitter()
@@ -148,4 +165,19 @@ public class death : MonoBehaviour
             0f
         );
     }
+
+
+    public void ResetState()
+    {
+        state = 5;
+        spawn = false;
+        transform.position = posInicial;
+        if (DetectionManager.Instance != null)
+            DetectionManager.Instance.ResetGlobalAlert();
+        
+
+            resetPlayer = true;
+    }
+
+
 }

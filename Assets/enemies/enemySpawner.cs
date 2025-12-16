@@ -11,6 +11,8 @@ public class enemySpawner : MonoBehaviour
         {
             Instantiate(enemyPrefab, transform.position, Quaternion.identity);
             spawned = true;
+
+            Debug.Log("AAAANASHEI");
         }
     }
 }

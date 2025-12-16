@@ -2,11 +2,16 @@ using UnityEngine;
 
 public class Follower : MonoBehaviour
 {
-    public Transform player;
+    private  Transform player;
     public float speed = 5f;
     public float accuracy = 0f;
     private Vector3 velocity;
 
+
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player").transform;
+    }
     void Update()
     {
         float acceleration = accuracy * 0.25f;

@@ -8,6 +8,14 @@ TagManager:
   - cops
   - win
   - grapplepoint
+<<<<<<< Updated upstream
+=======
+  - SpawnPoint
+  - Signo
+  - camara
+  - Target
+  - Bala
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

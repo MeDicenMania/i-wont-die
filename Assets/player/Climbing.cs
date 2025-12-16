@@ -76,6 +76,18 @@ public class Climbing : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            poleSide = -1;
+          
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            poleSide = 1;
+           
+        }
+
+
     }
         
             
@@ -91,22 +103,13 @@ public class Climbing : MonoBehaviour
         }
            
     }
-    private void Climb()
+    public void Climb()
     {
         isClimbing = true;
         rb.gravityScale = 0;
         rb.linearVelocity = new Vector2(0, inputy * climbSpeed);
        
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            poleSide = -1;
-            SideClimb(-1);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            poleSide = 1;
-            SideClimb(1);
-        }
+       
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ExitClimb();

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7914028335162324722}
   - component: {fileID: 5263835913683884706}
   - component: {fileID: 1206785932663269354}
+  - component: {fileID: 1574946528751323359}
   m_Layer: 0
   m_Name: win
   m_TagString: win
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 211, y: 22.7, z: 0}
-  m_LocalScale: {x: 1, y: 46.490627, z: 1}
+  m_LocalScale: {x: 2.0531147, y: 0.6467046, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.19357081, g: 0.9622642, b: 0.13163051, a: 1}
+  m_Color: {r: 0.19357081, g: 0.9622642, b: 0.13163051, a: 0.2784314}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -134,3 +135,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1574946528751323359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793541603293603313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13996a4e22ce65c4d8abda68505fb151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPoints: 100
+  timeGoal: 60

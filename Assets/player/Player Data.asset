@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e15c55168414964e9199f74e8a1c9e6, type: 3}
+  m_Name: Player Data
+  m_EditorClassIdentifier: 
+  maxVelocity: 13
+  runAcceleration: 0
+  runAccelAmount: 3
+  runDecceleration: 0
+  runDecclAmount: 20
+  accelAair: 5
+  deccAir: 2
+  initialSpeed: 13
+  jumpForce: 13
+  fallmultiplier: 2
+  lowjumpmultiplier: 14
+  wallJumpForce: {x: 10, y: 10}
+  WallJumpmult: 1.4
+  walllSlideSpeed: 2.5
+  coyote: 0.12
+  jumpBuffer: 0.12
+  slideSize: 1
+  normalSize: 1.80865
+  slideForce: 20
+  slideSpeed: 20
+  slideJumpForce: {x: 5, y: 2}
+  slideJumpmult: 1.1
+  maxGrappleDistance: 0

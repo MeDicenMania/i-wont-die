@@ -28,8 +28,13 @@ Transform:
   m_GameObject: {fileID: 5353714708938075738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream:Assets/Grapple point.prefab
   m_LocalPosition: {x: 15.16, y: 16.84, z: 0}
   m_LocalScale: {x: 1.0228945, y: 0.8853535, z: 1}
+=======
+  m_LocalPosition: {x: 42.4, y: 43.6, z: 0}
+  m_LocalScale: {x: 2.0531147, y: 0.6467046, z: 1}
+>>>>>>> Stashed changes:Assets/map design/win.prefab
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -147,6 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413be82a31ce0c840b76afd2f7ebd389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Grapple point.prefab
   distancia: 0
   grapple: {fileID: 0}
   canGrapple: 0
+=======
+  maxPoints: 100
+  timeGoal: 60
+>>>>>>> Stashed changes:Assets/map design/win.prefab

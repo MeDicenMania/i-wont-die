@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Animations;
@@ -49,11 +50,25 @@ public class specialMoves : MonoBehaviour
     public Vector2 dir;
     private float inputx;
     private float inputy;
+<<<<<<< Updated upstream:Assets/player/specialMoves.cs
 
     public bool isSlideJumping;
+=======
+    private PlayerSounds playerSounds;
+
+    [Header("Variables")]
+    private float originalRadius;
+    public Vector2 dir;
+    private Vector2 force;
+    private Vector2 originalOffset;
+    private Vector2 workspace;
+
+ 
+>>>>>>> Stashed changes:Assets/player/Scripts/specialMoves.cs
 
     void Start()
     {
+        playerSounds = GetComponent<PlayerSounds>();
         mov = GetComponent<movimiento>();
         coll = GetComponent<colisiones>();
         playerobj = GetComponent<Transform>();
@@ -100,6 +115,7 @@ public class specialMoves : MonoBehaviour
         {
             rolling = true;
             startRoll();
+            playerSounds.PlayDash();
         }
 
         if (Input.GetKeyUp(rollKey) && (rolling))
@@ -126,8 +142,22 @@ public class specialMoves : MonoBehaviour
             SlideJump();
         }
     }
+
+
+    public void SetColliderHeight(float height)
+    {
+        Vector2 center = circleCol.offset;
+        workspace.Set(circleCol.size.x, height);
+
+
+        center.y += (height - circleCol.size.y) / 2;
+        circleCol.size = workspace;
+        circleCol.offset = center;
+        
+    }
     private void startRoll()
     {
+<<<<<<< Updated upstream:Assets/player/specialMoves.cs
         Debug.Log("rolling");
   
              
@@ -142,6 +172,10 @@ public class specialMoves : MonoBehaviour
             
 
         }
+=======
+     SetColliderHeight(playerdata.slideSize);   
+
+>>>>>>> Stashed changes:Assets/player/Scripts/specialMoves.cs
         if (coll.enPiso && canRoll && rolling)
         {
 
@@ -167,9 +201,16 @@ public class specialMoves : MonoBehaviour
 
         if (!rolling)
         {
+<<<<<<< Updated upstream:Assets/player/specialMoves.cs
             playerobj.localScale = new Vector2(playerobj.localScale.x, startRollYScale);
             circleCol.radius = originalRadius;
             circleCol.offset = originalOffset;
+=======
+
+
+            SetColliderHeight(playerdata.normalSize);
+            canRoll = true;
+>>>>>>> Stashed changes:Assets/player/Scripts/specialMoves.cs
         }
 
     }

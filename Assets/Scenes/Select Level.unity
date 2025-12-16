@@ -155,8 +155,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -101, y: 211}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -90.215645, y: 164.00003}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58004741
 MonoBehaviour:
@@ -336,13 +341,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -683,13 +693,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -819,13 +834,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -955,13 +975,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 31.5
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1043,8 +1068,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 14.204987, y: 3.5003357}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -12.28749, y: -14.002735}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465109862
 MonoBehaviour:
@@ -1291,13 +1321,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1427,13 +1462,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1515,8 +1555,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -327.795, y: 3.5003357}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -246.07188, y: -14.002735}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617105971
 MonoBehaviour:
@@ -1684,13 +1729,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1772,8 +1822,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -326.99997, y: -99.851974}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -246.07191, y: -103.00409}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690773361
 MonoBehaviour:
@@ -1885,16 +1940,27 @@ RectTransform:
   m_GameObject: {fileID: 782469932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 102650758}
+=======
+  m_LocalScale: {x: 0.58, y: 0.58, z: 0.58}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+>>>>>>> Stashed changes
   m_Father: {fileID: 1403601548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -475, y: -289}
   m_SizeDelta: {x: 160, y: 30}
+=======
+  m_AnchoredPosition: {x: 290.8, y: -195.5}
+  m_SizeDelta: {x: 258.4074, y: 67.2352}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782469934
 MonoBehaviour:
@@ -2074,13 +2140,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2137,6 +2208,7 @@ GameObject:
   - component: {fileID: 835484270}
   - component: {fileID: 835484269}
   - component: {fileID: 835484268}
+  - component: {fileID: 835484271}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2218,6 +2290,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &835484271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835484267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &858324841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,8 +2370,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -440, y: 211}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -324, y: 164}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &858324843
 MonoBehaviour:
@@ -2387,8 +2508,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 15, y: 211}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -12.287517, y: 164.00003}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &872389322
 MonoBehaviour:
@@ -2520,8 +2646,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -100.99997, y: -99.851974}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -90.215645, y: -103.00409}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &884526529
 MonoBehaviour:
@@ -2689,13 +2820,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2777,8 +2913,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -327.795, y: 106.05765}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -246.07191, y: 74.99863}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987300810
 MonoBehaviour:
@@ -2946,13 +3087,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3082,13 +3228,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3170,8 +3321,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -440.795, y: 106.05765}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -324, y: 74.99863}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138525610
 MonoBehaviour:
@@ -3291,8 +3447,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -101.79501, y: 3.5003357}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -90.21569, y: -14.002735}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186071550
 MonoBehaviour:
@@ -3412,8 +3573,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -327, y: 211}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -246.07191, y: 164.00003}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262253353
 MonoBehaviour:
@@ -3545,8 +3711,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 15.0000305, y: -99.851974}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -12.287517, y: -103.00409}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307598634
 MonoBehaviour:
@@ -3714,13 +3885,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3815,7 +3991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3938,8 +4114,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -439.99997, y: -99.851974}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -324, y: -103.00409}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452034301
 MonoBehaviour:
@@ -4107,13 +4288,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4195,8 +4381,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -215, y: 211}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -168.14378, y: 164.00003}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576786834
 MonoBehaviour:
@@ -4376,13 +4567,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4512,13 +4708,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4648,13 +4849,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4736,8 +4942,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -214.99997, y: -99.851974}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -168.14378, y: -103.00409}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730870009
 MonoBehaviour:
@@ -4857,8 +5068,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -215.79501, y: 3.5003357}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -168.1438, y: -14.002735}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783651020
 MonoBehaviour:
@@ -4978,8 +5194,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -101.79501, y: 106.05765}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -90.215645, y: 74.99863}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797769413
 MonoBehaviour:
@@ -5147,13 +5368,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 35.8
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5283,13 +5509,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5419,13 +5650,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5507,8 +5743,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -215.79501, y: 106.05765}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -168.14378, y: 74.99863}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997176195
 MonoBehaviour:
@@ -5628,8 +5869,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 14.204987, y: 106.05765}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -12.287517, y: 74.99863}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998617764
 MonoBehaviour:
@@ -5797,13 +6043,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< Updated upstream
   m_fontSize: 24
   m_fontSizeBase: 24
+=======
+  m_fontSize: 29.55
+  m_fontSizeBase: 46
+>>>>>>> Stashed changes
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5885,8 +6136,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -440.795, y: 3.5003357}
   m_SizeDelta: {x: 90, y: 90}
+=======
+  m_AnchoredPosition: {x: -323.99997, y: -14.002735}
+  m_SizeDelta: {x: 35.0677, y: 40.0506}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2077593652
 MonoBehaviour:
